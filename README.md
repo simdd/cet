@@ -1,5 +1,7 @@
 # cet
 
+[![license](https://img.shields.io/npm/l/@forchange/apis.svg)](https://www.npmjs.com/package/@forchange/apis)
+
 cet（cooperation effectiveness tools）是一款协作效率工具
 
 ### Features
