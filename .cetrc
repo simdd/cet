@@ -1,9 +1,9 @@
 # start config
 
 # echo test
-[echo]
+[test]
 echo hello
-echo world
+echo this is a test direct
 
 # git flow init 
 # config userinfo
