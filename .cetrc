@@ -1,0 +1,34 @@
+# start config
+
+# echo test
+[echo]
+echo hello
+echo world
+
+# clone and config userinfo
+[clone]
+echo input url
+read url
+echo input username
+read username
+echo input mail
+read mail
+git clone $url
+git config user.name $username
+git config user.mail $mail
+
+# git flow and config userinfo
+[flow]
+read name
+echo $name
+echo 2
+
+# automatically pushed to the branch of release
+[release]
+git branch -D release
+git push origin :release
+git checkout -b release
+git push
+git push --set-upstream origin release
+
+# end config
