@@ -5,23 +5,16 @@
 echo hello
 echo world
 
-# clone and config userinfo
-[clone]
-echo input url
-read url
+# git flow init 
+# config userinfo
+[init]
+git flow init
 echo input username
 read username
 echo input mail
 read mail
-git clone $url
 git config user.name $username
 git config user.mail $mail
-
-# git flow and config userinfo
-[flow]
-read name
-echo $name
-echo 2
 
 # automatically pushed to the branch of release
 [release]
