@@ -2,10 +2,9 @@ class Cet < Formula
     desc "cet"
     homepage "https://github.com/simdd/cet"
     url "https://github.com/simdd/cet/releases/download/0.0.3/cet.zip"
-    sha256 "66525b2f057c4247d721b7a20464bc3dca641203cad0da751d15b19953092795"
+    sha256 "90787301e90c235b98f66199429b8dd26c9db4f01231a190baff71a0fa74dae3"
 
     def install
-      buildpath.install Dir["~/.cetrc"]
       bin.install "cet"
    end
   
