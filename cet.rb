@@ -2,7 +2,7 @@ class Cet < Formula
     desc "cet"
     homepage "https://github.com/simdd/cet"
     url "https://github.com/simdd/cet/releases/download/0.0.3/cet.zip"
-    sha256 "90787301e90c235b98f66199429b8dd26c9db4f01231a190baff71a0fa74dae3"
+    sha256 "244d28166800831bdef90213fdc9ae5cbad25235cb51193d868c6762b1e20578"
 
     def install
       bin.install "cet"

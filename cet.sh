@@ -27,7 +27,6 @@ fi
 
 default='#start config\n\n#echo test\n[test]\necho hello\necho this is a test direct\n\n#git flow init\n#config userinfo\n[init]\ngit flow init\necho input username\nread username\necho input mail\nread mail\ngit config user.name $username\ngit config user.mail $mail\n\n#automatically pushed to the branch of release\n[release]\ngit branch -D release\ngit push origin :release\ngit checkout -b release\ngit push\ngit push --set-upstream origin release\n\n#end config'
 if [ ! -f "$config" ]; then
-    echo config
     echo -e $default >$config
 fi
 
