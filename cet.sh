@@ -15,7 +15,7 @@ fi
 
 #version
 if [ "$1" = "version" ]; then
-    echo v0.0.1
+    echo v0.0.3
     exit 0
 fi
 
