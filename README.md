@@ -20,11 +20,16 @@ $ cat config
 ```
 
 ```shell
-# clone and config userinfo
-[clone]
-git clone stdin
-git config
+# add direct
+[direct]
+script1
+sciprt2
+...
+```
 
+### Example
+
+```shell
 # automatically pushed to the branch of release
 [release]
 git branch -D release
@@ -37,31 +42,25 @@ git push --set-upstream origin release
 ### Usage
 
 ```shell
-$ cat clone https://github.com/simdd/cet.git
-$ input username:
-$ input email:
-```
-
-```shell
-$ cat release
+$ cat direct
 ```
 
 ### Help
 
 ```shell
-$ cet -h
+$ cet help
 ```
 
 ### Version
 
 ```shell
-$ cet -v
+$ cet version
 ```
 
-### Update
+### Export
 
 ```shell
-$ cet update
+$ cet export
 ```
 
 ### License
