@@ -1,4 +1,4 @@
-#start config
+echo "#start config
 
 #echo test
 [test]
@@ -24,4 +24,4 @@ git checkout -b release
 git push
 git push --set-upstream origin release
 
-#end config
+#end config" >~/.cetrc

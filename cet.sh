@@ -9,7 +9,7 @@ fi
 
 #config
 if [ "$1" = "config" ]; then
-    vi ".cetrc"
+    vi "~/.cetrc"
     exit 0
 fi
 
@@ -21,7 +21,7 @@ fi
 
 #export
 if [ "$1" = "export" ]; then
-    cp .cetrc $pwd.cetrca
+    cp ~/.cetrc $pwd.cetrca
     exit 0
 fi
 
