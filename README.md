@@ -4,13 +4,14 @@ cet（cooperation effectiveness tools）是一款协作效率工具
 
 ### Features
 
-- 通过配置文件自定义工作流
+- 命令行工具，命令行式配置，命令行式调用
+- 可通过配置文件自定义工作流
 - 可导入/导出配置文件
 
 ### Install
 
 ```shell
-brew install cet
+brew install https://raw.githubusercontent.com/simdd/cet/master/cet.rb
 ```
 
 ### Configure
@@ -42,7 +43,7 @@ git push --set-upstream origin release
 ### Usage
 
 ```shell
-$ cat direct
+$ cat [direct]
 ```
 
 ### Help
