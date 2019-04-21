@@ -53,6 +53,12 @@ git push --set-upstream origin release
 $ cet export
 ```
 
+### Import
+
+```shell
+$ cet import [filePath]
+```
+
 ### Usage
 
 ```shell
