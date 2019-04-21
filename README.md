@@ -29,17 +29,16 @@ $ cat config
 > 指令上下以空行分割
 
 ```shell
-# add direct
+#添加指令说明
 [direct]
 script1
 sciprt2
-...
 ```
 
 ### Example
 
 ```shell
-# automatically pushed to the branch of release
+#发布当前分支到远端release
 [release]
 git branch -D release
 git push origin :release
