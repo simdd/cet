@@ -23,7 +23,7 @@ cet test
 ### Configure
 
 ```shell
-$ cat config
+$ cet config
 ```
 
 > 指令上下以空行分割
@@ -62,7 +62,7 @@ $ cet import [filePath]
 ### Usage
 
 ```shell
-$ cat [direct]
+$ cet [direct]
 ```
 
 ### Help
