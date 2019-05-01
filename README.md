@@ -10,8 +10,18 @@ cet（cooperation effectiveness tools）是提升工作流效率的命令行工�
 
 ### Install
 
+via brew
+
 ```shell
-brew install https://raw.githubusercontent.com/simdd/cet/master/cet.rb
+$ brew install https://raw.githubusercontent.com/simdd/cet/master/cet.rb
+```
+
+via curl
+
+```shell
+$ curl -o cet https://raw.githubusercontent.com/simdd/cet/master/cet
+$ mv cet /usr/local/bin
+$ chmod +x /usr/local/bin/cet
 ```
 
 ### Test
