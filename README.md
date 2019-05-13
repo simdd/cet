@@ -86,7 +86,7 @@ $ cet help
 ```shell
 $ vi ~/.bash_profile
 $ alias c='cet'
-$ source .bash_profile
+$ source ~/.bash_profile
 ```
 
 ### Version
