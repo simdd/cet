@@ -81,6 +81,14 @@ $ cet [direct]
 $ cet help
 ```
 
+### Alias
+
+```shell
+$ vi ~/.bash_profile
+$ alias c='cet'
+$ source .bash_profile
+```
+
 ### Version
 
 ```shell
